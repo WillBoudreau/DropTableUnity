@@ -226,7 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893332260}
-  - component: {fileID: 893332259}
+  - component: {fileID: 893332261}
   m_Layer: 0
   m_Name: ChestManager
   m_TagString: Untagged
@@ -234,54 +234,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &893332259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893332258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74d6b3167cc385440b6dfd28920696c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WoodChests: 0
-  BronzeChests: 0
-  SilverChests: 0
-  GoldChests: 0
-  PlatinumChests: 0
-  Chests: []
-  WoodCommon: 0
-  WoodUnCommon: 0
-  WoodRare: 0
-  WoodEpic: 0
-  WoodLegendary: 0
-  WoodChestDrop: []
-  BronzeCommon: 0
-  BronzeUnCommon: 0
-  BronzeRare: 0
-  BronzeEpic: 0
-  BronzeLegendary: 0
-  BronzeChestDrop: []
-  SilverCommon: 0
-  SilverUnCommon: 0
-  SilverRare: 0
-  SilverEpic: 0
-  SilverLegendary: 0
-  SilverChestDrop: []
-  GoldCommon: 0
-  GoldUnCommon: 0
-  GoldRare: 0
-  GoldEpic: 0
-  GoldLegendary: 0
-  GoldChestDrop: []
-  PlatinumCommon: 0
-  PlatinumUnCommon: 0
-  PlatinumRare: 0
-  PlatinumEpic: 0
-  PlatinumLegendary: 0
-  PlatinumChestDrop: []
 --- !u!4 &893332260
 Transform:
   m_ObjectHideFlags: 0
@@ -297,6 +249,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &893332261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893332258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d6b3167cc385440b6dfd28920696c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WoodChests: 300
+  BronzeChests: 250
+  SilverChests: 200
+  GoldChests: 150
+  PlatinumChests: 50
+  Chests: []
+  WoodCommon: 150
+  WoodUnCommon: 100
+  WoodRare: 50
+  WoodEpic: 25
+  WoodLegendary: 0
+  WoodChestDrop: []
+  BronzeCommon: 125
+  BronzeUnCommon: 125
+  BronzeRare: 75
+  BronzeEpic: 50
+  BronzeLegendary: 25
+  BronzeChestDrop: []
+  SilverCommon: 100
+  SilverUnCommon: 125
+  SilverRare: 100
+  SilverEpic: 50
+  SilverLegendary: 25
+  SilverChestDrop: []
+  GoldCommon: 75
+  GoldUnCommon: 100
+  GoldRare: 125
+  GoldEpic: 75
+  GoldLegendary: 50
+  GoldChestDrop: []
+  PlatinumCommon: 75
+  PlatinumUnCommon: 50
+  PlatinumRare: 125
+  PlatinumEpic: 100
+  PlatinumLegendary: 50
+  PlatinumChestDrop: []
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
